@@ -39,6 +39,7 @@ def most_common_bit_value(data, bit_i, default='1'):
     else:
         return '1' if bit_sum > length/2 else '0'
 
+# This is really stupid duplication! Just use defualt!
 def least_common_bit_value(data, bit_i, default='0'):
     length = len(data)    
     bit_sum = 0
