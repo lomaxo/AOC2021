@@ -28,7 +28,7 @@ def task2(inputfile, days):
         fish_dict_temp[6] += new_fish
         fish_dict = fish_dict_temp
     total_fish = sum(fish_dict.values())
-    print(f'Day {day}, Total fish: {total_fish}')
+    print(f'Day {day+1}, Total fish: {total_fish}')
     return total_fish
 
 task1()
